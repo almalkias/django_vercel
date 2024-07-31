@@ -1,0 +1,9 @@
+# MacOS specific files
+*.DS_Store
+
+# Environments
+env
+Iqtinaa/keys.json
+Iqtinaa/keys.production.json
+Iqtinaa/media
+Iqtinaa/db.sqlite3

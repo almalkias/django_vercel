@@ -1,0 +1,23 @@
+{% load i18n %}
+
+{% block subject %}
+{% blocktrans %}تنشيط حسابك على اقتناء{% endblocktrans %}
+{% endblock subject %}
+
+{% block html_body %}
+<style>
+    body {
+        direction: rtl;
+        text-align: right;
+    }
+</style>
+<p>{% blocktrans %}{% endblocktrans %}</p>
+
+<p>{% trans "لتفعيل حسابك فضلاً اضغط على زر تفعيل الحساب." %}</p>
+<p><a href="https://iqtinaaart.com/{{ url|safe }}">تفعيل الحساب</a></p>
+
+<p>{% trans "Thanks for using our site!" %}</p>
+
+<p>{% blocktrans %}فريق اقتناء{% endblocktrans %}</p>
+
+{% endblock html_body %}
